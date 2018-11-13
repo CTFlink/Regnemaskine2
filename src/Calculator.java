@@ -1,5 +1,3 @@
-package sample;
-
 public class Calculator {
 
     public static void main(String []args){
@@ -9,6 +7,7 @@ public class Calculator {
         String parsedInteger = "";
         String operator = "";
         int aggregate = 0;
+
         for (int i = 0; i < input.length(); i++){
             char c = input.charAt(i);
             if (Character.isDigit(c)) {
